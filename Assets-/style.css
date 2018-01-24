@@ -5,8 +5,9 @@ body {
 h1{
 	
 	text-decoration: overline;
-	font-weight: bold
-	color: white;
+	font-weight: bold;
+	font-family:Impact, Charcoal, sans-serif;
+	color: black;
 	display:inline;
 	clear: both;
 	padding: 10px;
@@ -21,7 +22,8 @@ h1{
 }
 
 #instructions {
-	
+	font-size: 19px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	width: 50%;
 	clear:both;
 	padding: 15px;
@@ -74,4 +76,8 @@ h1{
 	display: inline;
 	padding: 20px;
 	border: solid 1px #ddd
+}
+h4 {
+	float:bottom;
+	height:10px;
 }

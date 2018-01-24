@@ -55,7 +55,7 @@ $(document).ready(function() {
 		    $('#yourScore').text(counter);
 
 		    if (counter == numberToGuess){
-		      $('#status').text('You won!!!!');
+		      $('#status').text('Winner Winner!!');
 		      wins ++;
 		      $('#win').text(wins);
 		      console.log(wins)
@@ -64,7 +64,7 @@ $(document).ready(function() {
 		      newGame();
 		        
 		    } else if ( counter > numberToGuess){
-		        $('#status').text('You lost!')
+		        $('#status').text('LOSER!')
 		        losses ++;
 		        $('#loss').text(losses);
 		        console.log(losses)
